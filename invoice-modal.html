@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +7,13 @@
     <title>Invoice iFrame Demo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
     <style type="text/css">
-
     .modal-dialog {
         max-width: 500px
     }
-
     .modal-body {
         height: 100vh;
         overflow: hidden;
     }
-
     iframe {
         height: 100%;
         width: 100%;
@@ -30,10 +26,13 @@
 </head>
 
 <body>
-    <!-- jQuery --><script src="https://code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
-    <!-- bootstrap --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <center>
-        <button id="invoice" type="button" class="btn btn-default" onclick='$(".modal").modal()' ' style="margin-top:4em">Pay Invoice</button>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <center style="margin-top:4em">
+        <button type="button" class="btn btn-default" onclick="$('.modal').modal()">Pay Invoice</button>
     </center>
 
     <!-- Xendit Invoice Modal -->
@@ -51,5 +50,4 @@
     </div>
 
 </body>
-
 </html>

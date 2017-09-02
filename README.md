@@ -1,26 +1,15 @@
-# example-yalg
+# Code Examples
 
-##First time setup
+This repository contains code samples demonstrating how Xendit services can be used. 
 
-```
-git clone https://github.com/xendit/example-yalg.git
-```
+## Invoice Modal
+ - File: `invoice-modal.html`
+ - Embedding a Xendit invoice into an iFrame.
+ - This assumes that the invoice is already created from your backend, and the invoice URL would be piped to the front end.
 
-##Running locally (on OSX)
-```
-cd example-yalg
-php -S localhost:8000
-```
+## Create Invoice from PHP Landing Page
 
-##Getting updates
-```
-cd example-yalg
-git pull
-```
-
-##Pushing updates
-```
-git add -A
-git commit -m "Made some updates with a real comment here"
-git push
-```
+ - Folder: `php-landing-create-invoice`
+ - Example of a PHP landing page that accepts an amount and creates an Invoice.
+ - Be sure to set your API key in `config/xendit.config.php`
+ - Can be run locally on OSX with `php -S localhost:8000`
