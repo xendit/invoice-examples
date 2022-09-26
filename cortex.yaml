@@ -5,6 +5,7 @@ info:
   x-cortex-git:
     github:
       repository: xendit/invoice-examples
+  x-cortex-tag: invoice-examples
   x-cortex-owners:
   - type: GROUP
     name: xendit/tpi-dev
