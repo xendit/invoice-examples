@@ -1,0 +1,11 @@
+openapi: 3.0.1
+info:
+  title: invoice-examples
+  description: invoice-examples
+  x-cortex-git:
+    github:
+      repository: xendit/invoice-examples
+  x-cortex-tag: invoice-examples
+  x-cortex-owners:
+  - type: GROUP
+    name: xendit/tpi-dev
